@@ -1,0 +1,4 @@
+{:paths ["src" "resources"]
+ :deps {com.github.jsqlparser/jsqlparser {:mvn/version "4.8"}}
+ :aliases {:test {:extra-paths ["test"]
+                  :extra-deps {}}}}
